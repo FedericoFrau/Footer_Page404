@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* .projectName2::before {
+  content: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);*/
+  /* transform: scale(0.15); */
+  /*zoom: 15%;
+  height: 0px;
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  position: absolute;
+} */
+
+
+/* .projectName3::before {
+  content: "";
+  background: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  max-width: 50%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+
+/* .logoImage {
+  background-image: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);
+  transform: scale(0.1);
+
+  margin: -400px;
+} */
+
+
+/* .footer__backgroundOverlay2::before {
+  content: "";
+  background-image: linear-gradient(120deg, #ffffff00 50%, #0babc4 100%);
+
+  z-index: 0;
+  width: 100%;
+  height: 100%; */
+  /*background: url(/assets/deadpool_2.webp);
+    background-size: 100%;
+    background-repeat:no-repeat;*/
+  /* opacity: 0.4;
+} */
+
+
+/* .footer:before {
+    content: "";
+    background-color: red;
+    background: red;
+    
+    width: 10%;
+    height: 10%;
+    z-index: 3;
+} */

@@ -3,61 +3,149 @@
   margin: 0;
 }
 
-/* .projectName2::before {
-  content: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);*/
-  /* transform: scale(0.15); */
-  /*zoom: 15%;
-  height: 0px;
-  width: 0px;
-  margin: 0px;
+.footer__logoImage {
+  display: inline-block;
+  margin: -55px;
   padding: 0px;
-  display: block;
-  position: absolute;
-} */
+}
 
+.footer__logoName {
+  background: -webkit-linear-gradient(left, #ff0095, #1048ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
-/* .projectName3::before {
-  content: "";
-  background: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);
-  background-size: cover;
-  width: 500px;
-  height: 500px;
-  max-width: 50%;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
-
-/* .logoImage {
-  background-image: url(/assets/iconos/BackgroundEraser_20231006_113847678.png);
-  transform: scale(0.1);
-
-  margin: -400px;
-} */
-
-
-/* .footer__backgroundOverlay2::before {
-  content: "";
-  background-image: linear-gradient(120deg, #ffffff00 50%, #0babc4 100%);
-
-  z-index: 0;
+/* Desde aquí nav redes */
+.social {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
   width: 100%;
-  height: 100%; */
-  /*background: url(/assets/deadpool_2.webp);
-    background-size: 100%;
-    background-repeat:no-repeat;*/
-  /* opacity: 0.4;
-} */
+  padding: 0px;
+}
 
+.social .social-item {
+  margin: 00 22px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* .footer:before {
-    content: "";
-    background-color: red;
-    background: red;
-    
-    width: 10%;
-    height: 10%;
-    z-index: 3;
-} */
+.social .social-item .social-link {
+  margin-top: 0px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  text-align: center;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: all 0.4s ease;
+}
+
+.social .social-item .social-link::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  height: 100%;
+  width: 10px;
+  background: #b1b1b1;
+  transition: all 0.4s ease;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.social .social-item .social-link::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -5px;
+  height: 10px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: all 0.4s ease;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.social .social-item .social-link:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(5px, -5px);
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.social .social-item:nth-child(1) a {
+  color: #3b5999;
+}
+
+.social .social-item:nth-child(1):hover a {
+  background: #3b5999;
+}
+
+.social .social-item:nth-child(1):hover a::before {
+  background: #3b5999;
+}
+
+.social .social-item:nth-child(1):hover a::after {
+  background: #3b5999;
+}
+
+.social .social-item:nth-child(2) a {
+  color: #55acee;
+}
+
+.social .social-item:nth-child(2):hover a {
+  background: #55acee;
+}
+
+.social .social-item:nth-child(2):hover a::before {
+  background: #55acee;
+}
+
+.social .social-item:nth-child(2):hover a::after {
+  background: #55acee;
+}
+
+.social .social-item:nth-child(3) a {
+  color: #dd4b39;
+}
+
+.social .social-item:nth-child(3):hover a {
+  background: #dd4b39;
+}
+
+.social .social-item:nth-child(3):hover a::before {
+  background: #dd4b39;
+}
+
+.social .social-item:nth-child(3):hover a::after {
+  background: #dd4b39;
+}
+
+.social .social-item:nth-child(4) a {
+  color: #e4405f;
+}
+
+.social .social-item:nth-child(4):hover a {
+  background: #e4405f;
+}
+
+.social .social-item:nth-child(4):hover a::before {
+  background: #e4405f;
+}
+
+.social .social-item:nth-child(4):hover a::after {
+  background: #e4405f;
+}
+
+.social .social-item .social-link:hover {
+  color: #ffffff;
+}
+/* Hasta aquí nav redes */

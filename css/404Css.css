@@ -47,10 +47,18 @@
 }
 
 .textMessageOut {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   font-family: walter Turncoat;
+  text-shadow: 2px -2px 3px rgb(199, 153, 153);
 }
 
+.errorCode {
+  font-size: 2.3vw;
+}
+
+.textLinkHome {
+  color: rgb(0, 0, 0);
+}
 /* Hasta aquí el globo de texto */
 
 /* Desde aquí footer */

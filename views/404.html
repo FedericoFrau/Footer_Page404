@@ -9,34 +9,49 @@
       crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/404Css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Walter+Turncoat&display=swap"
+      rel="stylesheet" />
     <title>Page404 - T.P. Grupal Unidad-1</title>
   </head>
   <body>
     <section
-      class="container-fluid"
+      class="container-fluid p-0"
       id="inicio"
       style="min-height: 30vh; background-color: rgb(245, 245, 245)">
-      <div class="card">
+      <!-- <div class="card">
         <div class="globo">
-          <p>
+          <p class="fs-3 text-center">
             ¡Ooopsi! Creo que no fue muy buena idea meterse en esta página de
-            <strong><b>ERROR 404</b></strong>
+            <strong><b class="text-danger fs-1"></p><p class="text-center">¡ ERROR 404 !</b></strong>
           </p>
         </div>
-        <div>
-          <img class="imagen" src="foto.jpg" alt="" />
-        </div>
+        
+      </div> -->
+
+      <div class="bubble text-center">
+        <p class="textMessage">
+          ¡Ooopsi! Parece que fue muy mala idea meterme en ésta página de
+        </p>
+        <p class="textError">
+          <strong><b class="text-danger">¡ ERROR 404 !</b></strong>
+        </p>
       </div>
+
       <img
         class="img-fluid"
-        src="/assets/deadpool_2.webp"
+        src="/assets/deadpool_2modificada.png"
         alt=""
         width="100%" />
-    </section>
-    <section
-      class="container-fluid"
-      style="min-height: 50vh; background-color: rgb(237, 239, 255)">
-      SECCION GENÉRICA DE RELLENO
+      <p class="textMessageOut bg-white text-center py-5">
+        No te desanimes! A diferencia de nuestro amigo, podemos ayudarte a salir
+        de aquí para llevarte a
+        <a href="/index.html" class="text-decoration-none">
+          <strong>inicio</strong>
+        </a>
+      </p>
     </section>
 
     <!-- Desde aquí el footer -->

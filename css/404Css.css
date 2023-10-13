@@ -7,8 +7,8 @@
 
 .bubble {
   position: absolute;
-  right: 12vw;
-  top: 1.5vw;
+  right: 20vw;
+  top: 0vw;
   width: 32%;
   height: 7vw;
   background: rgb(236, 238, 214);
@@ -19,21 +19,6 @@
   text-wrap: balance;
 }
 
-/* .bubble::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 80px;
-  background: transparent;
-  width: 0px;
-  height: 0px;
-  border-bottom: 40px solid rgb(236, 238, 214);
-  border-right: 40px solid transparent;
-  border-left: 40px solid transparent;
-  transform: rotate(90deg);
-  z-index: -1;
-} */
-
 .textMessage {
   position: relative;
   margin-bottom: 0;
@@ -42,7 +27,7 @@
 }
 .textError {
   position: relative;
-  top: 40%;
+  top: 30%;
   font-family: Rock Salt;
 }
 
@@ -207,3 +192,60 @@
   color: #ffffff;
 }
 /* Hasta aquí nav redes */
+
+/* Desde aquí boton Home */
+.Btn {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(#d1ffdf, #159b82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  border: none;
+}
+
+.arrow path {
+  fill: white;
+}
+
+.text {
+  font-size: 1em;
+  width: 100px;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -38px;
+  opacity: 0;
+  transition-duration: 0.7s;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+
+.Btn:hover .arrow {
+  animation: slide-in-bottom 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Hasta aquí boton Home */
+.footer__link:hover {
+  color: rgb(32, 190, 238) !important;
+}
+/* Hasta aquí footer */

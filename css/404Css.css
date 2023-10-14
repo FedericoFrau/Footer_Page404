@@ -3,11 +3,10 @@
   margin: 0;
 }
 
-/* Desde aquí el globo de texto */
-
+/* Desde aquí globo de texto */
 .bubble {
   position: absolute;
-  right: 20vw;
+  right: 16vw;
   top: 0vw;
   width: 32%;
   height: 7vw;
@@ -15,7 +14,7 @@
   border-radius: 45%;
   border: 0.5vw double #f7f7f7;
   font-family: sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   text-wrap: balance;
 }
 
@@ -24,10 +23,12 @@
   margin-bottom: 0;
   top: 15%;
   font-family: walter Turncoat;
+  line-height: 2vw;
 }
 .textError {
   position: relative;
   top: 30%;
+  left: 8%;
   font-family: Rock Salt;
 }
 
@@ -44,7 +45,26 @@
 .textLinkHome {
   color: rgb(0, 0, 0);
 }
-/* Hasta aquí el globo de texto */
+@media (max-width: 768px) {
+  .bubble {
+    font-size: 3vw;
+    right: 1vw;
+    top: 0vw;
+    width: 47%;
+    height: 12vw;
+  }
+  .textMessage {
+    font-size: 3.5vw;
+    line-height: 3vw;
+  }
+  .errorCode {
+    font-size: 4.1vw;
+  }
+  .textMessageOut {
+    font-size: 5vw;
+  }
+}
+/* Hasta aquí globo de texto */
 
 /* Desde aquí footer */
 .footer__logoImage {

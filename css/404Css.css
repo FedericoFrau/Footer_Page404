@@ -3,6 +3,7 @@
   margin: 0;
 }
 
+/* Desde aquí main page404 */
 /* Desde aquí globo de texto */
 .bubble {
   position: absolute;
@@ -43,7 +44,7 @@
 }
 
 .textLinkHome {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 87, 168);
 }
 @media (max-width: 768px) {
   .bubble {
@@ -65,6 +66,7 @@
   }
 }
 /* Hasta aquí globo de texto */
+/* Hasta aquí main page404 */
 
 /* Desde aquí footer */
 .footer__logoImage {
